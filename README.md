@@ -118,6 +118,10 @@ launchpad-explorer/
 
 ---
 
+📱 [Descargar APK de prueba](https://github.com/tuusuario/tu-repo/raw/main/app.apk)
+
+---
+
 ## 👨‍💻 Autor
 
 **Jeisson Moncada**  
