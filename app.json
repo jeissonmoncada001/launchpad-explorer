@@ -1,24 +1,19 @@
 {
   "expo": {
-    "name": "my-expo-app",
-    "slug": "my-expo-app",
+    "name": "launchpad-explorer",
+    "slug": "launchpad-explorer",
     "version": "1.0.0",
-
+    "scheme": "launchpadexplorer",
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "experiments": {
       "tsconfigPaths": true
     },
-
     "plugins": [],
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -26,13 +21,21 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jeissonmoncada.launchpadexplorer"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.jeissonmoncada.launchpadexplorer"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3bf535fc-d167-4364-906e-cc8ab0d4a89c"
       }
-    }
+    },
+    "owner": "jeissonmoncada"
   }
 }
